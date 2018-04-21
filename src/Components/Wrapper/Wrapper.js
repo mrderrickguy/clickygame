@@ -1,10 +1,11 @@
 import React from "react";
-import "./Wrapper.css";
+import "./wrapper.css";
 
-const   Wrapper = props => (
+
+const   wrapper = props => 
     <div className="row">
-        <div className="wrapper">{props.children}</div>
+        <div className="Wrapper">{props.children}</div>
     </div>
-);
 
-export default Wrapper;
+
+export default wrapper;

@@ -1,2 +1,2 @@
 // index
-export {default} from "./Navbar";
+export {default} from "./nav";

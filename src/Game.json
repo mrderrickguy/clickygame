@@ -1,35 +1,41 @@
- [
+[
 
      {
         "id": 1,
         "image": "http://www.iconfinder.com/icons/417675/caps_captain_hero_marvel_shield_icon#size=256",
         "clicked": false
     },
+
     {
         "id": 2,
         "image": "https://iconscout.com/icon/ironman-marvel-super-hero-earth-saver-avenger#size=256",
         "clicked": false
     },
+
     {
         "id": 3,
         "image": "https://iconscout.com/icon/the-punisher-marvel-super-hero-earth-saver-avenger#size=256",
         "clicked": false
     },
+
+
     {
         "id": 4,
         "image": "https://iconscout.com/icon/robin-dc-superhero-hero-justice-league-earth-saver#size=256",
         "clicked": false
     },
+
     {
         "id": 5,
-        "image": "https://iconscout.com/icon/superman-dc-superhero-hero-justice-league-earth-saver",
+        "image": "https://iconscout.com/icon/superman-dc-superhero-hero-justice-league-earth-saver#size=256",
         "clicked": false
     },
+
     {
         "id": 6,
-        "image": "https://iconscout.com/icon/batman-dc-superhero-hero-justice-league-earth-saver",
+        "image": "https://iconscout.com/icon/batman-dc-superhero-hero-justice-league-earth-saver#size=256",
         "clicked": false
-}
+    }
+
 ]
 
-export default Game;

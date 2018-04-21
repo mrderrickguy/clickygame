@@ -1,7 +1,9 @@
 body {
   margin: 100%;
   padding:100%;
-  font-family: .card {
+  font-family: 
+}
+  .card {
     background-color: rgba(218, 31, 235, 0.687); 
     border: solid black .25em;
     display: inline-block;

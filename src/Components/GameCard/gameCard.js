@@ -1,12 +1,12 @@
 import React from "react";
-import "./GameCard.css";
+import "./gameCard.css";
 
-const GameCard = props => (
+const gameCard = props => (
     <div className="herocard">
-      <div className="pic-holder" Gameid={props.id} onClick={() => props.randomDisplay(props.id)}>
-          <img src={props.pixCard} alt={props.name}/>
+      <div className="pic-holder" gameid={props.id} onClick={() => props.randomDisplay(props.id)}>
+          <img src={props.image} alt={props.name}/>
       </div>  
     </div>
 );
 
-export default GameCard;
+export default gameCard;

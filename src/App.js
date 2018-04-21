@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Gamecard from "./Components/GameCard";
+import gameCard from "./Components/GameCard";
 import Nav from "./Components/Navbar";
-import Wrapper from "./Components/Wrapper";
-import game from "./Game.json";
-import Swal from 'sweetalert'
+import wrapper from "./Components/Wrapper";
+import Game from "./Game.json";
+import swal from 'sweetalert'
 import './App.css';
 
 
@@ -13,7 +13,7 @@ swal({
   text : "Click on the the Marvel Character ",
   badge : "https://media.giphy.com/media/xT5LMSXibBBVeJs6ZO/giphy.gif",
   button: "Unite!",
-  clickAway : true 
+  clickHere : true 
 });
 
 
@@ -21,13 +21,13 @@ swal({
   state = {
     score: 0,
     topScore: 0,
-    game: game
+    Game:Game
 };
   randomDisplay = id => {
     this.state.Game.forEach((image) => {
       if (image.id ===id) {
         if (image.clicked) {
-          return({
+          swal({
             className : "Sorry",
             title : "Game Over!",
             text : "Chosen already!",
@@ -35,6 +35,7 @@ swal({
             button: "Nice Try !",
             clickHere : true 
           });
+
           this.setState({})
           this.resetGame();
           return false;
@@ -59,13 +60,13 @@ swal({
         n--;
       }
     }
-    this.setState({ game: copy });
+    this.setState({ Game: copy });
   }
 
   refreshScore = () => {
     this.setState((newState) => ({
       score: newState.score + 1
-    }), () => this.winning())
+    }), () => this.wins())
   }
 
   newTopScore = () => {
@@ -75,7 +76,7 @@ swal({
   }
 
   wins = () => {
-    if (this.state.score === this.state.game.length) {
+    if (this.state.score === this.state.Game.length) {
       swal({
         className : "Wins",
         title : "Wins!",
@@ -105,10 +106,10 @@ swal({
 
   return (
 
-    <Wrapper>
+    <wrapper>
         <Nav score={this.state.score} topScore={this.state.topScore} />
-        {this.state.game.map( hero => { 
-            return <Gamecard
+        {this.state.Game.map( hero => { 
+            return <gameCard
               {...hero}
               key={hero.id}
               newDisplay={this.newDisplay}
@@ -116,7 +117,7 @@ swal({
             />;
         })}
         
-      </Wrapper>
+      </wrapper>
   )};
 
 }
