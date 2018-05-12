@@ -1,28 +1,61 @@
-.App {
+.Sorry {
+  background-color: rgba(222, 55, 52, 0.899);
+  border: solid rgb(63, 70, 15) 5px;
+  box-shadow: 0 4px 50px rgb(101, 38, 38), 0 6px 12px rgb(85, 85, 85);
+}
+
+.Sorry button {
+  background-color: rgb(63, 70, 15);
+  color: rgb(221, 255, 0);
+}
+
+.Sorry button:hover {
+  background-color: rgba(63, 70, 15, 0.31);
+  color: red;
+}
+
+.Rule-is {
+  background-color: #AAAAAA;
+  border: solid red 5px;
+  box-shadow: 0 4px 50px #AAAAAA, 0 6px 12px blue;
+}
+
+.Rule-is button {
+  background-color: red;
+  color: blue;
+}
+
+.Rule-is button:hover {
+  background-color: rgba(106, 142, 35, 0.509);
+  color: red;
+}
+
+.swal-text {
+  color: blue;
+  font-family: "Courier New", Courier, red;
+  font-size: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.title {
+  margin-bottom: 2%;
+  text-align:center;
+  width: 90%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Wins{
+  background-color: rgba(245, 104, 43, 0.899);
+  border: solid blue 5px;
+  box-shadow: 0 4px 8px rgb(121, 71, 28), 0 6px 12px rgb(85, 85, 85);
 }
 
-.App-title {
-  font-size: 1.5em;
+.Winsbutton {
+  background-color: red;
+  color: rgb(221, 255, 0);
 }
 
-.App-intro {
-  font-size: large;
+.Winsbutton:hover {
+  background-color: rgba(181, 54, 120, 0.509);
+  color: rgb(221, 255, 0);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

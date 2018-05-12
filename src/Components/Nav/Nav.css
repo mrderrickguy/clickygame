@@ -1,21 +1,20 @@
-
-
 .Game-title{
-    color:#000;
-    font-family: 'VT323', monospace;
+    text-align: center;
+    color:red;
+    font-family: 'font-family: 'Permanent Marker', cursive;', grey;
     font-size: 4rem;
     font-weight: 600;
-    margin-left: 2%;
+    margin-left: 35%;
     text-shadow:2px 2px 2px rgb(220, 211, 211);
 }
 
 .navbar {
-    background-color: rgb(213, 66, 159);
+    background-color: blue;
     box-shadow: 0 4px 5px rgb(72, 16, 52);
     margin-bottom: 1%;
 }
 
-.scores {
+.topScore {
     border: solid red 2px;
     border-radius: 10px;
     color: gray;

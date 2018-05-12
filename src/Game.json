@@ -2,40 +2,52 @@
 
      {
         "id": 1,
-        "image": "http://www.iconfinder.com/icons/417675/caps_captain_hero_marvel_shield_icon#size=256",
+        "image": "https://vignette.wikia.nocookie.net/disney/images/f/fa/Captain-America-AOU-Render.png/revision/latest?cb=20150208173400",
         "clicked": false
     },
 
     {
         "id": 2,
-        "image": "https://iconscout.com/icon/ironman-marvel-super-hero-earth-saver-avenger#size=256",
+        "image": "http://www.kinyu-z.net/data/wallpapers/116/1108967.jpg",
         "clicked": false
     },
-
     {
         "id": 3,
-        "image": "https://iconscout.com/icon/the-punisher-marvel-super-hero-earth-saver-avenger#size=256",
+        "image": "https://vignette.wikia.nocookie.net/marvelvscapcom/images/5/54/BlackPanther.png/revision/latest?cb=20171005110357",
         "clicked": false
     },
 
 
     {
         "id": 4,
-        "image": "https://iconscout.com/icon/robin-dc-superhero-hero-justice-league-earth-saver#size=256",
+        "image": "https://vignette.wikia.nocookie.net/marvelvscapcom/images/e/eb/PeterParker.png/revision/latest?cb=20170818120510",
         "clicked": false
     },
 
+
     {
         "id": 5,
-        "image": "https://iconscout.com/icon/superman-dc-superhero-hero-justice-league-earth-saver#size=256",
-        "clicked": false
+        "image": "https://vignette.wikia.nocookie.net/deathbattle/images/7/72/Superman_Rebirth.png/revision/latest?cb=20170430035752",
+        "clicked": true
     },
 
     {
         "id": 6,
-        "image": "https://iconscout.com/icon/batman-dc-superhero-hero-justice-league-earth-saver#size=256",
-        "clicked": false
-    }
+        "image": "https://pre00.deviantart.net/e9e7/th/pre/i/2016/042/2/a/bvs__batman___transparent_background__by_camo_flauge-d9rbonk.png",
+        "clicked": true
+    },
 
+    {
+        "id": 7,
+        "image": "https://pre00.deviantart.net/aa47/th/pre/f/2017/245/8/3/injustice_gods_among_us__shazam_regime__by_ogloc069-dbm5w0r.png",
+        "clicked": true
+    },
+
+    {
+        "id": 8,
+        "image": "https://i.pinimg.com/originals/a8/4a/ba/a84aba5d2357740c14e40630b477e300.png",
+        "clicked": true
+    }
+     
 ]
 

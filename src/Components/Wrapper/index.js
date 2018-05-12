@@ -1,2 +1,1 @@
-// index
-export {default} from "./wrapper";
+export {default} from "./Wrapper";

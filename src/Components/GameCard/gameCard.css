@@ -1,29 +1,35 @@
 .herocard {
-    background-color: rgba(218, 31, 235, 0.687); 
-    border: solid black .25em;
+    background-color: grey;
+    border: solid red .25em;
     display: inline-block;
+    box-shadow: 0 4px 50px #AAAAAA, 5px 6px 7px blue;
     height: 11%;
     margin-left: 7%;
     width: 16%;
 }
 
+.herocard:hover {
+     opacity: 1;
+ transform: scale(1.20);
 
+}
 
-.pic-holder {
+.img-container{
+   
     height: 100%;
     overflow: hidden;
     text-align: center;
     
 }
 
-.pic-holder:hover {
+.img-container:hover {
     cursor: pointer;
-    transform: rotate(360deg);
-    transition: all 2s;
+         opacity: 1;
+ transform: scale(1.30);
 }
 
-img {
-    padding: .5em;
+img{
+    padding: 20px;
     height: 100%;
     width: 90%;
     image-rendering: pixelated;

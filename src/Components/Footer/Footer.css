@@ -1,0 +1,12 @@
+.footers {
+    background-color: black;
+    box-shadow: -2px -3px  3px  red;
+    height: 5%;
+    padding: 2%;
+    margin-top: 8%;
+    text-align: center;  
+}
+
+.foot{
+	color:red;
+}
