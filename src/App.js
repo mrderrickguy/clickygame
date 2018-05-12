@@ -31,7 +31,7 @@ swal({
           swal({
             className : "Sorry",
             title : "Game Over!",
-            text : "Chosen already!",
+            text : "HULK MAD!",
            icon: "https://i.pinimg.com/originals/ee/8f/c1/ee8fc11442b24e25fca31de25652d90e.png",
             button: "Nice Try !",
             clickHere : true 
