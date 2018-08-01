@@ -6,7 +6,7 @@
 
 .Sorry button {
   background-color: rgb(63, 70, 15);
-  color: rgb(221, 255, 90);
+  color: rgb(221, 255, 0);
 }
 
 .Sorry button:hover {
@@ -39,7 +39,6 @@
 
 .title {
   margin-bottom: 2%;
-  text-align:center;
   width: 90%;
 }
 
